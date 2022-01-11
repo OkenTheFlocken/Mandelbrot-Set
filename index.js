@@ -9,4 +9,6 @@ ctx.canvas.height = HEIGHT
 const REAL_SET = { start: -2, end: 1}
 const IMAGINARY_SET = { start: -1, end: 1}
 
+console.log("Oken ist nett");
+
 const colors = new Array(16).fill(0).map((_,i) => i === 0 ? '#000' : '#${((1 << 24) * Math.random() '
